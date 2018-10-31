@@ -18,7 +18,7 @@ def getItem():
 
 if __name__ == '__main__':
     itemA = getItem()
-    sleep(10)
+    sleep(30)
     itemB = getItem()
 
     if itemA == itemB:
