@@ -10,7 +10,7 @@ def getItem():
 
     if output:
         output = output.split('\n')
-        return output[-2]
+        return output[-3]
 
     elif error:
         return 1
